@@ -67,6 +67,40 @@ EcoTrack/
 └── README.md               # Repository Documentation
 
 ```
+## 📸 Interface Preview
+
+### 🌐 Landing Page
+![Landing Page](assets/landingPage.png)
+*Figure 1: EcoTrack Public Landing Page.*
+
+---
+
+### 👑 Admin Module
+| Admin Dashboard | Admin Analytics |
+| :---: | :---: |
+| ![Admin Dashboard](assets/adminDashboard.png) | ![Admin Analytics](assets/adminAnalytics.png) |
+| *Command Center & Metric Overview* | *System Intelligence & Emissions Analytics* |
+
+<br>
+
+![Admin Goal Tracking](assets/adminGoalTracking.png)
+*Figure 2: Carbon Budget & Goal Tracking Management.*
+
+---
+
+### 👔 Department Manager Module
+| Manager Dashboard | Manager Analytics |
+| :---: | :---: |
+| ![Manager Dashboard](assets/managerDashboard.png) | ![Manager Analytics](assets/managerAnalytics.png) |
+| *Operational Resource Logging* | *Departmental Emissions Breakdown* |
+
+<br>
+
+![Manager Insights](assets/managerInsights.png)
+*Figure 3: Department-Level Strategic Recommendations & Insights.*
+<br>
+<br>
+<br>
 🚀 Local Installation & Setup
 Prerequisites
 Python 3.10+ installed
