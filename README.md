@@ -65,3 +65,51 @@ EcoTrack/
 ├── manage.py               # Django CLI Script
 ├── requirements.txt        # Project Dependencies
 └── README.md               # Repository Documentation
+
+```
+🚀 Local Installation & Setup
+Prerequisites
+Python 3.10+ installed
+
+Git installed
+
+Step-by-Step Setup
+Clone the Repository:
+
+Bash
+git clone [https://github.com/mokshithk/EcoTrack.git](https://github.com/mokshithk/ecotrack-django-python-project)
+cd EcoTrack
+Create & Activate a Virtual Environment:
+
+Bash
+python -m venv env
+
+# On Windows:
+env\Scripts\activate
+
+# On macOS/Linux:
+source env/bin/activate
+Install Dependencies:
+
+Bash
+pip install -r requirements.txt
+Configure Environment Variables:
+Create a .env file in the root directory:
+
+Code snippet
+SECRET_KEY=your_django_secret_key
+DEBUG=True
+GEMINI_API_KEY=your_google_gemini_api_key
+Run Database Migrations:
+
+Bash
+python manage.py migrate
+Create an Admin Superuser:
+
+Bash
+python manage.py createsuperuser
+Launch Development Server:
+
+Bash
+python manage.py runserver
+Navigate to http://127.0.0.1:8000/ in your browser.
